@@ -1,0 +1,19 @@
+{
+    "name": "rxjsdemo",
+    "version": "1.0.0",
+    "description": "RxJs demo project for internal use at Szallas.hu Zrt.",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "serve": "npm run watch & http-server",
+        "watch": "webpack --watch"
+    },
+    "author": "Adam Konyari",
+    "license": "ISC",
+    "devDependencies": {
+        "rxjs": "^7.1.0",
+        "webpack": "^5.37.1",
+        "webpack-cli": "^4.7.0",
+        "webpack-dev-server": "^3.11.2"
+    }
+}
